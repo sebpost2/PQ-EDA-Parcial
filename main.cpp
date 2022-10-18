@@ -34,4 +34,7 @@ int main()
     stop = high_resolution_clock::now();
     duration = duration_cast<microseconds>(stop - start);
     cout << "duracion de la prueba 2: " << duration.count() << endl;
+    while(true){
+        
+    }
 }
